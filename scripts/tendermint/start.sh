@@ -44,5 +44,5 @@ echo "Tendermint running and logging into $LOGFILE"
 
 if [ -n "${CI:-}" ]; then
   # Give process some time to come alive. No idea why this helps. Needed for CI.
-  sleep 0.5
+  sleep 1
 fi
